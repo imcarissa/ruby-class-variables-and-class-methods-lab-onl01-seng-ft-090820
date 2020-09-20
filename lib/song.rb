@@ -7,13 +7,15 @@ class Song
   
  
   def initalize
-    
+    @@song_count +=1
+  end
     
   def self.count
-    @@
+    @@count
   end
   
   def self.genres
+    @@genres
   end
   
 end
