@@ -29,7 +29,10 @@ class Song
   end
   
   def self.genre_count
-    
+    if @roster[grade] 
+      @roster[grade] << name
+   else
+     @roster[grade] = [name]
   end
   
   def self.artist_count
