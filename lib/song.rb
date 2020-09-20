@@ -8,6 +8,7 @@ class Song
   
  
   def initalize(name, artist, genre)
+    @@genres
     @@song_count +=1
   end
     
