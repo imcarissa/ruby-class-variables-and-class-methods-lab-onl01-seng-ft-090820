@@ -8,6 +8,9 @@ class Song
   
  
   def initalize(name, artist, genre)
+    @name = name
+    @artist = artist
+    @genre = genre
     @@genres
     @@artist
     @@song_count +=1
