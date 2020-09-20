@@ -9,6 +9,7 @@ class Song
  
   def initalize(name, artist, genre)
     @@genres
+    @@artist
     @@song_count +=1
   end
     
@@ -20,6 +21,8 @@ class Song
     @@genres.uniq
   end
   
-  
+  def self.artists
+    @@artists.uniq
+  end
   
 end
