@@ -30,8 +30,8 @@ class Song
   
   def self.genre_count
     @@genres.each do |genre|
-    if @roster[grade] 
-      @roster[grade] << name
+    if @genres[genre] 
+      @genres[genre] += 1
    else
      @roster[grade] = [name]
   end
